@@ -1,0 +1,9 @@
+{
+	"name": "instancemultiplefilecopydf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aa79013b-0667-4399-9e32-2aef55e6b6d1",
+		"tenantId": "1c72c7b9-889e-4782-b904-2898298ea66a"
+	}
+}
