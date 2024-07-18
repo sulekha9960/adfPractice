@@ -1,0 +1,22 @@
+{
+	"name": "ds_single_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_source_and_sinke",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "outputsinglecontainers"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

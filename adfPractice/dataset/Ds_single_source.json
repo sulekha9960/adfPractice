@@ -1,0 +1,23 @@
+{
+	"name": "Ds_single_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_source_and_sinke",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "plane2.csv",
+				"container": "inputsinglecontainers"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
