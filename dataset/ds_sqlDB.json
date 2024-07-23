@@ -1,0 +1,17 @@
+{
+	"name": "ds_sqlDB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqlDB_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "",
+			"table": "department.csv"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

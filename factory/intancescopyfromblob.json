@@ -1,0 +1,9 @@
+{
+	"name": "intancescopyfromblob",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f6c26c6b-c997-4636-99ed-71b1db18a86b",
+		"tenantId": "1c72c7b9-889e-4782-b904-2898298ea66a"
+	}
+}
