@@ -1,0 +1,22 @@
+{
+	"name": "DS_SQLDB_SINK",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQLDBPARAMETER_SINK",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"DBAIRLINE": "targetdb"
+			}
+		},
+		"folder": {
+			"name": "servicess_parameters"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "infoemp"
+		}
+	}
+}
